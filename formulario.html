@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Formulario HTML Jésica Tapia</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--EL FORMULARIO ESTA BASADO EN :  -->
+<!--https://www.w3schools.com/html/html_forms.asp -->
+<!--https://www.w3schools.com/html/html_form_input_types.asp -->
+<!--https://www.w3schools.com/html/html_images.asp-->
+
+<body>
+    <main>
+        <div class="header-img">
+            <!--esta parte es para incluir la imagen en src debes colocar la ruta a la imagen que quieres mostrar -->
+            <img src="./Header.png">
+
+        </div>
+    </main>
+    <div>
+        <!--h1,h2 y h3 muestran el texto en distinto tamaño, p es para párrafos -->
+
+        <h1>FORMULARIO PARA SELECCIONAR ESPECIALIDAD</h1>
+
+        <h2>Por favor ingrese los datos que se solicitan para registrase en una de las especialidades del programa</h2>
+
+        <p>Nombre: <input type="text" name="nombre"></p>
+        <!--con size puedes cambiar el tamaño de la letra -->
+
+        <!--la etiqueta input es para colocar el espacio donde el usuario va a agregar datos -->
+
+
+        <p>Apellidos: <input type="text" name="apellidos" size="40"></p>
+
+        <p>ID-HACKWOMEN: <input type="text" name="ID" size="20"></p>
+
+        <h2>Por favor seleccione una de las siguientes especializaciones</h2>
+        <!--input tipo radio se utiliza para hacer menus de selección , tambien hay tipo checkbox, que son los de cuadro -->
+
+
+        <input type="radio" name="boton" value="1">Back End <br>
+        <input type="radio" name="boton" value="2">Front End<br>
+        <input type="radio" name="boton" value="3">Mobil<br>
+
+        <!--input tipo radio se utiliza para hacer menus de selección , tambien hay tipo checkbox, que son los de cuadro -->
+
+        <p>Comentarios Adicionales : <input type="text" name="texto" placeholder="No más de 100 palabras"></p>
+        <!--input tipo submit se utiliza para colocar un boton de envío -->
+
+        <p><input type="submit" value="Enviar"></p>
+
+    </div>
+
+
+</body>
+
+</html>
